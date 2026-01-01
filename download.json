@@ -1,12 +1,45 @@
 {
+  
 "Steam":{
 "link":"https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
-"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png"
+"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png",
+"prefix":"",
+"args":"--silent"
 },
 
 "Chrome": {
 "link":"https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B3DA41545-5DC7-121C-140D-D092F833BDDC%7D%26lang%3Dvi%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe",
-"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png"
+"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png",
+"prefix":"msiexec /i ",
+"args":"/quiet /norestart"
+},
+
+"Discord": {
+"link":"https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64",
+"icon":"https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6266bc493fb42d4e27bb8393_847541504914fd33810e70a0ea73177e.ico",
+"prefix":"",
+"args":"/VERYSILENT"
+}
+
+"Blender": {
+"link":"https://download.blender.org/release/Blender4.2/blender-4.2.0-windows-x64.msi"
+"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png",
+"prefix":"msiexec /i ",
+"args":"/quiet /norestart"
+},
+
+"Bloxstrap": {
+"link":"https://github.com/bloxstraplabs/bloxstrap/releases/download/v2.10.0/Bloxstrap-v2.10.0.exe"
+"icon":"https://static.wikia.nocookie.net/roblox/images/1/1f/Bloxstrap_2024_Logo.png/revision/latest?cb=20241019003213",
+"prefix":"",
+"args":"--quiet"
+}
+
+"WindHawk": {
+"link":"https://ramensoftware.com/downloads/windhawk_setup.exe",
+"icon":"https://img.utdstc.com/icon/b73/06e/b7306e9e74c0bc10e1e2b6ddd826cd1528ef009f813f54c8d89007fa302fdde3:200",
+"prefix":"",
+"args":"-tray-only"
 }
 
 }
